@@ -231,6 +231,8 @@ img {
     width: calc((100% - 72px) / 4);
 }
 
+.feature-icon {}
+
 .feature-item-top {
     display: flex;
     width: 100%;
@@ -243,8 +245,6 @@ img {
     justify-content: center;
     margin-bottom: 8px;
 }
-
-.feature-icon {}
 
 .feature-subtitle,
 .team-subtitle,
@@ -349,7 +349,10 @@ img {
 .footer-icon {
     align-items: center;
     justify-content: center;
-    fill: #f4f4fd; 
+    fill: #f4f4fd;
+}
+
+
 
 
 .portfolio-list {
@@ -452,8 +455,7 @@ img {
     justify-content: center;
     flex-direction: column;
     padding: 0;
-    
-        }
+}
 
 
 .footer-text-lincs {
